@@ -1,0 +1,2 @@
+iverilog -o usr_sim universal_shift_register.v universal_shift_register_tb.v
+vvp usr_sim
